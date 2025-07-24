@@ -47,9 +47,6 @@ async function main() {
         'log out'
     ])
 
-    // It can also handle low-level actions
-    await agent.act('Drag "Get started with Magnitude" to the top of the in progress column');
-
     // Stop agent and browser
     await agent.stop();
 }
