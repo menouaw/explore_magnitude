@@ -1,0 +1,20 @@
+{
+  "name": "explore_magnitude",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "postinstall": "patchright install chromium"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "magnitude-core": "latest",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "magnitude-test": "^0.3.3",
+    "tsx": "^4.20.0",
+    "typescript": "^5.0.0"
+  }
+}
